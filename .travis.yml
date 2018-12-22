@@ -17,7 +17,7 @@ jobs:
       - docker run --rm --priviledged multiarch/qemu-user-static:register --reset
       - make docker
       - make docker-arm
-    if: branch = master
+    if: branch = master AND type = push
 
 after_success:
   - ./.travis_docker_push.sh
