@@ -14,7 +14,7 @@ jobs:
       - make all
   - stage: docker
     script:
-      - docker run --rm --priviledged multiarch/qemu-user-static:register --reset
+      - docker run --rm --privileged multiarch/qemu-user-static:register --reset
       - make docker
       - make docker-arm
     if: branch = master AND type = push
