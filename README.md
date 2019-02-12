@@ -1,4 +1,8 @@
-# Cloud Inventory Gatherer
+# ARCHIVED
+
+This repo has been moved to https://github.com/adobe/cloudinventory
+
+## Cloud Inventory Gatherer
 [![Build Status](https://travis-ci.org/tchaudhry91/cloudinventory.svg?branch=master)](https://travis-ci.org/tchaudhry91/cloudinventory)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tchaudhry91/cloudinventory)](https://goreportcard.com/report/github.com/tchaudhry91/cloudinventory)
 
